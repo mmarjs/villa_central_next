@@ -1,0 +1,34 @@
+{
+  "name": "villa_central_next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@babel/helper-module-imports": "^7.18.6",
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-regular-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "axios": "^0.27.2",
+    "babel-plugin-macros": "^3.1.0",
+    "bootstrap": "^5.1.3",
+    "emailjs-com": "^3.2.0",
+    "next": "12.2.5",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "18.2.0",
+    "react-markdown": "^8.0.3",
+    "swiper": "^8.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.23",
+    "eslint": "8.23.0",
+    "eslint-config-next": "12.2.5"
+  }
+}

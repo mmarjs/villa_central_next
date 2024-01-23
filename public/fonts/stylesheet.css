@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Recoleta';
+    src: url('Recoleta-Bold.woff2') format('woff2'),
+        url('Recoleta-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Recoleta';
+    src: url('Recoleta-RegularDEMO.woff2') format('woff2'),
+        url('Recoleta-RegularDEMO.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: url('TTNorms-Bold.woff2') format('woff2'),
+        url('TTNorms-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: url('TTNorms-Regular.woff2') format('woff2'),
+        url('TTNorms-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: url('TTNorms-BoldItalic.woff2') format('woff2'),
+        url('TTNorms-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+

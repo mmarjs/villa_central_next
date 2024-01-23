@@ -1,0 +1,367 @@
+.hamburg {
+  display: inline-block !important;
+  position: relative !important;
+  width: 40px !important;
+  height: 30px !important;
+}
+.hamburg > * {
+  position: absolute !important;
+  left: 0px !important;
+  top: 0px !important;
+  width: 100% !important;
+  height: 10% !important;
+  background-color: white !important;
+
+  -webkit-border-radius: 2px !important;
+  border-radius: 2px !important;
+
+  -webkit-transition: all 0.5s ease !important;
+  -moz-transition: all 0.5s ease !important;
+  -ms-transition: all 0.5s ease !important;
+  -o-transition: all 0.5s ease !important;
+  transition: all 0.5s ease !important;
+}
+.hamburg_line_4 {
+  left: auto !important;
+  right: 0px !important;
+  bottom: 0px !important;
+  top: auto !important;
+}
+.hamburg_line_m {
+  top: calc(50% - 10% / 2) !important;
+}
+body.ShowMenuOnMobile .hamburg_line_1,
+body.ShowMenuOnMobile .hamburg_line_4 {
+  width: 0px !important ;
+}
+body.ShowMenuOnMobile .hamburg_line_m.m1 {
+  -moz-transform: rotate(45deg) !important;
+  -webkit-transform: rotate(45deg) !important;
+  -o-transform: rotate(45deg) !important;
+  -ms-transform: rotate(45deg) !important;
+  transform: rotate(45deg) !important;
+}
+body.ShowMenuOnMobile .hamburg_line_m.m2 {
+  -moz-transform: rotate(-45deg) !important;
+  -webkit-transform: rotate(-45deg) !important;
+  -o-transform: rotate(-45deg) !important;
+  -ms-transform: rotate(-45deg) !important;
+  transform: rotate(-45deg) !important;
+}
+
+.hamburg {
+  display: none !important;
+}
+
+@media (max-width: 1200px) {
+  .X5BlueBlocks ul {
+    display: flex !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+  }
+  .X5BlueBlocks ul li {
+    margin: 10px !important;
+    width: 210px !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .TestimonialsSwiper {
+    left: 0px !important;
+  }
+}
+
+@media (max-width: 790px) {
+  .header_navigation_menu a span {
+    font-size: 24px !important;
+  }
+  .header_navigation_menu_holder {
+    position: fixed !important;
+    left: 0px !important;
+    z-index: 10000 !important;
+  }
+  .HeaderRightMenu {
+    display: flex !important;
+    justify-content: flex-end !important;
+    align-items: center !important;
+    width: 100% !important;
+    justify-content: space-between !important;
+  }
+  .header_contact_menu {
+    margin-bottom: 0px !important;
+    display: block !important;
+    width: 100% !important;
+  }
+  .header_contact_menu > li {
+    margin-left: 0px !important;
+    text-align: center !important;
+  }
+
+  .hamburg {
+    display: block !important;
+    position: relative !important;
+    z-index: 100000 !important;
+  }
+
+  .header_navigation_menu_holder {
+    width: 100% !important;
+    height: 100% !important;
+    top: 0px !important;
+    display: none !important;
+    -webkit-backdrop-filter: blur(5px) !important;
+    backdrop-filter: blur(5px) !important;
+  }
+  .header_navigation_menu {
+    width: 100% !important;
+    display: block !important;
+
+    padding: 30vh 0 !important;
+    max-width: 320px !important;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-left: 20px !important;
+  }
+
+  body.ShowMenuOnMobile {
+    overflow: hidden !important;
+  }
+  body.ShowMenuOnMobile .header_navigation_menu_holder {
+    display: flex !important;
+  }
+}
+
+@media (max-width: 750px) {
+  footer .container {
+    max-width: 400px !important;
+  }
+  .FooterColumnsHolder {
+    display: block !important;
+  }
+  .FooterColumnsHolder > * {
+    margin-bottom: 30px !important;
+  }
+  .FooterColumnsHolder > *:nth-child(2) {
+    max-width: 100% !important;
+    padding: 0px !important;
+  }
+
+  .ScrollTop {
+    width: 20px !important;
+    height: 20px !important;
+    right: 10px !important;
+    bottom: 10px !important;
+  }
+
+  footer {
+    text-align: center !important;
+  }
+  .LogoLinkFoooter {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .FooterCopyrightSocial {
+    display: block !important;
+    text-align: center !important;
+  }
+  .FooterCopyrightSocial ul {
+    justify-content: center !important;
+  }
+
+  .DescriptionForVilla_bottom > *:last-child {
+    padding: 25px 15px !important;
+    width: calc(100% - 270px);
+
+    -webkit-clip-path: none !important;
+    clip-path: none !important;
+  }
+  .DescriptionForVilla_bottom {
+    margin-top: 0px !important;
+  }
+}
+
+@media (max-width: 650px) {
+  .LeftWhiteList .col-lg-12 {
+    display: block !important;
+  }
+  .LeftWhiteList .col-lg-12 > * {
+    margin-bottom: 30px !important;
+  }
+  .LeftWhiteList_rightContent h3 {
+    max-width: 100% !important;
+  }
+  .LeftWhiteList ul {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .LeftWhiteList .col-lg-12 > * {
+    max-width: 400px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .LeftWhiteList ul {
+    -webkit-clip-path: none !important;
+    clip-path: none !important;
+    width: 100% !important;
+    max-width: 400px !important;
+  }
+
+  .FloorPhotos_holder {
+    display: block !important;
+  }
+  .FloorPhotos_holder > * {
+    width: 100% !important;
+  }
+  .FloorPhotos h2 {
+    text-align: center !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .DescriptionForVilla_bottom > *:first-child {
+    width: 150px !important;
+  }
+  .DescriptionForVilla_bottom > *:last-child {
+    width: calc(100% - 150px);
+  }
+
+  .PhotoBottomContent_grid {
+    display: block !important;
+  }
+  .PhotoBottomContent_grid > * {
+    margin-bottom: 20px !important;
+  }
+}
+
+@media (max-width: 550px) {
+  .X5BlueBlocks ul {
+    display: block !important;
+  }
+  .X5BlueBlocks ul li {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0px !important;
+    margin-bottom: 20px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .big_header .swiper_content {
+    padding-top: 60px !important;
+    padding-bottom: 80px !important;
+  }
+
+  .header_contact_menu {
+    display: none !important;
+  }
+  .HeaderRightMenu {
+    justify-content: flex-end !important;
+  }
+
+  .big_header h2,
+  .BigHeaderTextCenter h1 {
+    font-size: 40px !important;
+  }
+
+  .BookNowForm h2,
+  .FloorPhotos h2,
+  .LightBlueBanner h2,
+  .LeftWhiteList_rightContent h3,
+  .Testimonials h3,
+  .BookNowContent h2 {
+    font-size: 30px !important;
+  }
+  .BookNowCallUseLink,
+  .BookNowCallUseLink:hover {
+    font-size: 20px !important;
+  }
+  /*}
+
+@media (max-width:450px){*/
+  .BookNowForm form {
+    padding: 30px 25px !important;
+  }
+
+  .DescriptionForVilla_bottom {
+    display: block !important;
+  }
+  .DescriptionForVilla_bottom > * {
+    width: 100% !important;
+  }
+  .DescriptionForVilla_bottom > *:first-child {
+    display: none !important;
+  }
+
+  .DescriptionForVilla:before {
+    height: 50% !important;
+  }
+
+  .LeftWhiteList ul {
+    padding: 20px 15px !important;
+  }
+
+  .TestimonialsItem {
+    padding: 20px 15px !important;
+    padding-bottom: 50px !important;
+  }
+
+  .LeftWhiteList {
+    padding: 50px 0px !important;
+  }
+
+  .BigHeaderTextCenter {
+    padding-top: 50px !important;
+  }
+  .LightBlueBanner,
+  .PanelOnSide {
+    padding: 50px 0px !important;
+  }
+
+  .BigHeaderTextCenter {
+    min-height: 0px !important;
+  }
+
+  .FloorContent {
+    margin-top: 0px !important;
+  }
+  .FloorContentPanel {
+    top: 0px !important;
+  }
+  .FloorContentPanel {
+    padding: 50px 15px !important;
+    -webkit-clip-path: none !important;
+    clip-path: none !important;
+  }
+
+  .BookNowContent {
+    -webkit-clip-path: none !important;
+    clip-path: none !important;
+
+    background-size: auto 100% !important;
+    background-position: left top !important;
+    background-repeat: no-repeat !important;
+  }
+
+  .BookNowForm {
+    margin-top: -150px !important;
+  }
+  .BookNowForm form {
+    -webkit-clip-path: none !important;
+    clip-path: none !important;
+  }
+
+  .FloorPhotos {
+    padding: 50px 0px !important;
+  }
+
+  .FloorPhotos_holder > * {
+    height: 50vw !important;
+  }
+  .FloorPhotos_holder > .FloorPhoto:first-child {
+    height: 100vw !important;
+  }
+
+  body .container > .row {
+    margin-bottom: 20px !important;
+  }
+}
